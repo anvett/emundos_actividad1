@@ -1,0 +1,79 @@
+/*Selector de etiqueta*/
+h3{
+    color: rgb(18, 87, 87);
+}
+
+/*Selector de clase*/
+.clase{
+    color: rgb(83, 19, 233);
+}
+
+/*Selector de id*/
+#id {
+    color: dodgerblue;
+}
+
+h1{
+    color: rgb(139, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-decoration: underline solid;
+    text-decoration-style: double ;
+}
+
+body {
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1px solid white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+nav > a {
+    color: rgb(139, 0, 0) ;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(139, 0, 0);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.text1 {
+    color: white;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+    text-indent: 10px;
+    
+}
+
+.text2 {
+    color: white;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.text3 {
+    color: white;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+    text-indent: 10px;
+}
